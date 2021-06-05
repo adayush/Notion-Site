@@ -1,6 +1,6 @@
 module.exports = {
   // where it all starts -- the site's root Notion page (required)
-  rootNotionPageId: '78fc5a4b88d74b0e824e29407e9f1ec1',
+  rootNotionPageId: '6b986fa59ce640199b74e3a8bc9e79b5',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
@@ -43,9 +43,12 @@ module.exports = {
   // any pages defined here will override their default URL paths
   // example:
   //
-  // pageUrlOverrides: {
-  //   '/foo': '067dd719a912471ea9a3ac10710e7fdf',
-  //   '/bar': '0be6efce9daf42688f65c76b89f8eb27'
-  // }
-  pageUrlOverrides: null
+  pageUrlOverrides: {
+    '/resume': '6ae868a592034e0eb51e356996da8c78',
+    '/blogs': 'fbd25f13642443179c8186b3ee0bf15c',
+    '/projects':'ab5b73392bea42358435de8beb42a6f9',
+    '/murals':'e607f9118e9d401c8d60ae69ab30e809',
+    '/reading':'6e40581e0d2540d6858a5c19a6fcf8d4',
+    '/portfolio': 'ffcc0141a476482f8782d8075648bce2',
+  }
 }
