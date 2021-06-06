@@ -1,70 +1,37 @@
-.notion-frame {
-  background-color: transparent !important;
-  background-image: linear-gradient(180deg, #fdfbfb 0, #ebedee 100%) !important;
-}
-.dark .notion-frame {
-  background-color: transparent !important;
-  background-image: linear-gradient(180deg, #1b1b1b 0, #20262e 100%) !important;
+* {
+  box-sizing: border-box;
 }
 
-.dots {
-  display: none !important;
+a {
+  color: inherit;
+  text-decoration: none;
 }
 
-@keyframes gradient {
-  0% {
-      background-position: 0 50% !important;
-  }
-  50% {
-      background-position: 100% 50%;
-  }
-  100% {
-      background-position: 0 50%;
-  }
+body,
+html {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
-.notion-page-content {
-  padding-bottom: 2.5rem !important;
-  padding-top: 2.5rem !important;
-  background: #fff;
-  border-radius: 1rem;
-  margin: -2.75rem 0 10vh 0;
+
+body {
+  overflow-x: hidden;
 }
-.dark .notion-page-content {
-  background: rgba(54, 73, 84, 0.2);
+
+.utterances {
+  max-width: 100% !important;
 }
-.notion-page-block {
-  position: relative;
+
+.static-tweet blockquote {
+  margin: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
 }
-.notion-scroller > [style="width: 100%; font-size: 14px;"] {
-  margin-bottom: 1.5rem;
-}
-.notion-image-block {
-  pointer-events: none !important;
-}
-.notion-image-block img {
-  pointer-events: none !important;
-}
-.notion-callout-block > div > div {
-  border-radius: 0.5rem !important;
-}
-.notion-peek-renderer {
-  background: #142025 !important;
-  transition: 0.3s;
-}
-.notion-peek-renderer > div:nth-child(2) {
-  border-radius: 0.5rem !important;
-  overflow: hidden;
-}
-.notion-gallery-view > div > div > a {
-  border-radius: 0.5rem !important;
-}
-.notion-gallery-view > div > div > a:hover {
-  opacity: 0.75;
-}
-.notion-scroller > div:nth-child(2) > div {
-  opacity: 0 !important;
-  pointer-events: none !important;
-}
-[data-block-id="31e29e21-df58-45a6-b44d-260bbbcbffa6"] {
-  text-align: center;
+
+.static-tweet-emoji {
+  height: 1.2em !important;
+  width: 1.2em !important;
 }
