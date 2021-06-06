@@ -7,19 +7,19 @@ module.exports = {
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Transitive Bullshit',
-  domain: 'transitivebullsh.it',
-  author: 'Travis Fischer',
+  name: 'Ayush Dhingra',
+  domain: 'ayushdhingra.ml',
+  author: 'Ayush Dhingra',
 
   // open graph metadata (optional)
   description: 'Example site description',
-  socialImageTitle: 'Transitive Bullshit',
+  socialImageTitle: 'Ayush Dhingra',
   socialImageSubtitle: 'Hello World! 👋',
 
   // social usernames (optional)
-  twitter: 'transitive_bs',
-  github: 'transitive-bullshit',
-  linkedin: 'fisch2',
+  twitter: 'ayush_dhingra_',
+  github: 'adayush',
+  linkedin: 'ayush-dhingra',
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
@@ -49,6 +49,5 @@ module.exports = {
     '/projects':'ab5b73392bea42358435de8beb42a6f9',
     '/murals':'e607f9118e9d401c8d60ae69ab30e809',
     '/reading':'6e40581e0d2540d6858a5c19a6fcf8d4',
-    '/portfolio': 'ffcc0141a476482f8782d8075648bce2',
   }
 }
