@@ -97,6 +97,8 @@ export const NotionPage: React.FC<types.PageProps> = ({
 
   const title = getBlockTitle(block, recordMap) || site.name
 
+  const site.html = "<div data-tf-popover="dzswsFW3" data-tf-hide-footer data-tf-button-color="#404040" data-tf-button-text="Launch me" style="all:unset;"></div><script src="//embed.typeform.com/next/embed.js"></script>"
+
   console.log('notion page', {
     isDev: config.isDev,
     title,
