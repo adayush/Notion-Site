@@ -12,7 +12,7 @@ module.exports = {
   author: 'Ayush Dhingra',
 
   // open graph metadata (optional)
-  description: 'This is my personal site and is updated frequently',
+  description: 'This is my personal site and includes what I\'ve been doing and learning.',
   socialImageTitle: 'Ayush Dhingra',
   socialImageSubtitle: 'Hello World! 👋',
 
