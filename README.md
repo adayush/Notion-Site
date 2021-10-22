@@ -12,6 +12,8 @@
 
 ## Intro
 
+Updated till commit - 22 Oct - Merge pull request #175 from Andrewnt219/162-fix-embedded-video-size
+
 This repo is what I use to power my personal blog / portfolio site [transitivebullsh.it](https://transitivebullsh.it).
 
 It uses Notion as a CMS, fetching content from Notion and then uses [Next.js](https://nextjs.org/) and [react-notion-x](https://github.com/NotionX/react-notion-x) to render everything.
