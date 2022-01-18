@@ -40,6 +40,12 @@ export default class MyDocument extends Document {
           <body>
             <script src='noflash.js' />
 
+            <script>document.querySelector(window).mousemove(function(e) {
+              document.querySelector<HTMLElement>('.cursor').style.cssText += 'left: e.pageX; top: e.pageY;'
+            })
+            </script>
+            <div className="cursor cursor-dot"></div>
+
             <Main />
 
             <NextScript />
